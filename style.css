@@ -18,6 +18,7 @@
     -webkit-text-stroke: 0.5px black;
     background-color: rgba(17, 15, 17, 70%);
     border-radius: 15%;
+    text-align: center;
 }
 
 .introduction {
@@ -130,4 +131,36 @@ html {
   background-color: rgba(17, 15, 17, 70%);
   border-radius: 15%;
   text-decoration: underline indianred;
+}
+
+
+@media (max-width: 1000px) {
+  .introduction {
+    color:indianred;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 200%;
+    background-color: rgba(17, 15, 17, 70%);
+    border-radius: 10%;
+  }
+  .text-info { 
+    color:white;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgba(17, 15, 17, 50%);
+    border-radius: 5%;
+    
+}
+
+  .text-info a {
+      color:white;
+      -webkit-text-stroke: 0.5px black;
+      text-decoration: underline white;
+      font-size: 110%;
+  }
+  .logo {
+    width: 400px;
+    height: 200px;
+  }
+
 }
