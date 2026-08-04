@@ -14,3 +14,5 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ## DESCRIPTION:
 
 This is basically just a simple portfolio site I created for fun. I used vanta.js for the site background.
+
+You can visit the site at https://marscannon.neocities.org
