@@ -61,6 +61,10 @@
     font-size: 120%;
 }
 
+.text-info u {
+  text-decoration: underline white;
+}
+
 .navbar {
     padding: 5px;
     background-color: #110f11;
