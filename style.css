@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.name-info {
+    color:indianred;
+    -webkit-text-stroke: 0.5px black;
+    background-color: rgba(17, 15, 17, 70%);
+    border-radius: 15%;
+}
+
+.introduction {
+    color:indianred;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 400%;
+    background-color: rgba(17, 15, 17, 70%);
+    border-radius: 10%;
+}
+
+.name-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-div a {
+    color:indianred;
+    -webkit-text-stroke: 0.5px black;
+    text-decoration: underline indianred;
+    font-size: 120%;
+}
+
+.text-info { 
+    color:white;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 130%;
+    text-align: center;
+    background-color: rgba(17, 15, 17, 50%);
+    border-radius: 5%;
+    
+}
+
+.text-info a {
+    color:white;
+    -webkit-text-stroke: 0.5px black;
+    text-decoration: underline white;
+    font-size: 120%;
+}
+
+.navbar {
+    padding: 5px;
+    background-color: #110f11;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    padding: 30px;
+    color: indianred;
+    text-decoration: none;
+}
+
+.logo {
+    width: 500px;
+    height: 250px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
+}
+
+.fadeInUp2-animation {
+  animation: 0.8s fadeInUp2;
+}
+
+footer { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+}
+
+html {
+  min-height: 100%;
+}
+
+.copyright {
+  color:indianred;
+  -webkit-text-stroke: 0.5px black;
+  background-color: rgba(17, 15, 17, 70%);
+  border-radius: 15%;
+}
+.copyright a {
+  color:indianred;
+  -webkit-text-stroke: 0.5px black;
+  background-color: rgba(17, 15, 17, 70%);
+  border-radius: 15%;
+  text-decoration: underline indianred;
+}
