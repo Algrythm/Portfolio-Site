@@ -1,0 +1,1 @@
+window.location.replace("https://www.instagram.com/p/DboXtkFu_kz/")
